@@ -1,0 +1,36 @@
+@media (max-width:768px) {
+    .main_title{
+        display: inline;
+
+    }
+    .service_cards{
+        display: inline;
+        justify-content: center;
+        position: relative;
+        left: 200px;
+    
+    }
+
+    .project_cards .team_cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .team_cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 100px;
+    }
+    
+}
+
+@media (max-width:375px) {
+    .none{
+        display: none
+    }
+    .nav_text{
+        display: flex;
+ 
+    }
+
+}
