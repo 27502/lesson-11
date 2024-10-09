@@ -306,3 +306,11 @@ bottom: 125px;
     grid-template-columns: repeat(4,1fr);
 margin-bottom: 120px;
 }
+.for_hv{
+    transform: 1.5s;
+}
+.for_hv:hover{
+    background-color: green;
+    color: green;
+
+}
